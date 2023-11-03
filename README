@@ -1,0 +1,26 @@
+building an app that tracks todo items
+
+this app will have 5 routes that do the following
+
+Add an item
+
+POST /items
+{
+    "label": "feed the cat",
+    "notes": "the cat likes tuna, but is only allowed 1 can a week.",
+    
+
+
+}
+
+
+
+--------
+
+Internally to the app we want to store items, and we want to track the following about them
+
+id: uniquely identifies item
+label: this is general summary of the item
+notes: notes about this item
+done: true if this item is done, false if not done
+
